@@ -5,7 +5,6 @@ Module 17: Credit Risk Analysis
 
 # Credit Risk Analysis
 
------------------------------------------------------------
 ## Overview
 
 *Background* 
@@ -32,7 +31,9 @@ Module 17: Credit Risk Analysis
 
 
  *Easy Ensemble Classifier*
+ 
 -------------------
+
 ## Summary
 
  *Summary of results*
