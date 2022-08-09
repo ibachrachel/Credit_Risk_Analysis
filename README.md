@@ -151,8 +151,8 @@ Below are descriptions of the balanced accurary scores and the precision and rec
 
 *Summary of results*
 
-Results of the machine learning models summarized
+Many models performed in a similar manner, with accuracy scores, recall scores, etc. 
 
 *Recommendations*
 
-Recommendation on the model to use, if any: if no recommendation is possible explain why and give a justification 
+For the company, FastLending, I would definitely recommend the usage of the Easy Ensemble Classifier to identify High-Risk loans. The Easy Ensemble Classifier demonstrated a high accuracy score with a very high-risk classification recall score, which means that this model would be the most effective at reducing the amount of loans that are executed that could have negative consequences for the company (such as non-repayment). The recall score for the High-Risk loans is the most vital component when determing which model to use. 
