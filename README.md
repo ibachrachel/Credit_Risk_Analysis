@@ -72,14 +72,59 @@ Below are descriptions of the balanced accurary scores and the precision and rec
 
  *3. Cluster Centroids*
 
- *4. SMOTEENN*
+#### Balanced Accuracy Score
 
+![BAS_CC](https://user-images.githubusercontent.com/102566199/183556212-af20c030-8aef-4bc4-a139-6a88c82e7a7f.png)
+
+
+#### Confusion Matrix
+
+![CM_CC](https://user-images.githubusercontent.com/102566199/183556241-991221bc-1b9c-43df-8b3a-275e96e6827d.png)
+
+
+#### Imbalanced Classification Report
+
+![ICR_CC](https://user-images.githubusercontent.com/102566199/183556281-45d48d9d-220c-4891-b875-c285e792acfe.png)
+
+
+ *4. SMOTEENN*
+ 
+#### Balanced Accuracy Score
+
+![BAS_S](https://user-images.githubusercontent.com/102566199/183556340-02ca32ff-8f72-4342-a5dd-e2ff30d48e94.png)
+
+
+#### Confusion Matrix
+
+![CM_S](https://user-images.githubusercontent.com/102566199/183556359-0b889fc1-9d7f-4f44-91a0-5514db14a96c.png)
+
+
+#### Imbalanced Classification Report
+
+![ICR_S](https://user-images.githubusercontent.com/102566199/183556392-612ed405-0431-4695-9d7e-fcd66d17da9e.png)
 
  *5. Balanced Random Forest Classifier*
+ 
+#### Balanced Accuracy Score
 
+
+#### Confusion Matrix
+
+
+
+#### Imbalanced Classification Report
 
  *6. Easy Ensemble Classifier*
  
+ #### Balanced Accuracy Score
+
+
+#### Confusion Matrix
+
+
+
+#### Imbalanced Classification Report
+
 -------------------
 
 ## Summary
