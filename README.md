@@ -35,28 +35,34 @@ Using the credit card credit dataset from LendingClub, a peer-to-peer lending se
 -----------------------------------
 ## Results
 
-*Random Over Sampler*
+Below are descriptions of the balanced accurary scores and the precision and recall scores of all six machine learning models. 
+
+
+*1. Random Over Sampler*
 
 
 
-*SMOTE*
+*2. SMOTE*
 
 
- *Cluster Centroids*
+ *3. Cluster Centroids*
 
- *SMOTEENN*
-
-
- *Balanced Random Forest Classifier*
+ *4. SMOTEENN*
 
 
- *Easy Ensemble Classifier*
+ *5. Balanced Random Forest Classifier*
+
+
+ *6. Easy Ensemble Classifier*
  
 -------------------
 
 ## Summary
 
- *Summary of results*
+*Summary of results*
 
+Results of the machine learning models summarized
 
 *Recommendations*
+
+Recommendation on the model to use, if any: if no recommendation is possible explain why and give a justification 
