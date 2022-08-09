@@ -11,16 +11,7 @@ Module 17: Credit Risk Analysis
 
 In 2019, more than 19 million Americans had at least one unsecured personal loan. That's a record-breaking number! Personal lending is growing faster than credit card, auto, mortgage, and even student debt. With such incredible growth, FinTech firms are storming ahead of traditional loan processes. By using the latest machine learning techniques, these FinTech firms can continuously analyze large amounts of data and predict trends to optimize lending.
 
-Fast lending, a peer-to-peer lending services company
-ML is being used to assess credit risk
-Quick and reliable loan experience
-ML will be more accurate identification for good candidates for loans: lower default rates
-Assist lead data scientist is implementing this plan:
-Build and evaluate many ML models to see which works best for the data
-→ evaluate their performance and see how well the model predicts data
- 
-The lead data scientist, Jill, has asked you to create the same development environment that she is using. This step will help you run the code smoothly without conflicts.
-
+A peer-to-peer lending services company, Fast Lending, is looking to use machine learning to assess credit risk. By using machine learning (ML), they hope to create a quicker and more reliable loan experience. ML will have a high accuracy identification rate for good candidates for loans, which in turn could allow for lower default rates and other positive results. The lead scientist, Jill will need help to implent this plan by building and evaluating many ML models to see which works best for the data. It's important to evaluate the model's performance to see how well it could predict data. 
 
 *Purpose*
 
@@ -30,17 +21,19 @@ Credit risk is an inherently unbalanced classification problem, as good loans ea
 
 Using the credit card credit dataset from LendingClub, a peer-to-peer lending services company, you’ll oversample the data using the RandomOverSampler and SMOTE algorithms, and undersample the data using the ClusterCentroids algorithm. Then, you’ll use a combinatorial approach of over- and undersampling using the SMOTEENN algorithm. Next, you’ll compare two new machine learning models that reduce bias, BalancedRandomForestClassifier and EasyEnsembleClassifier, to predict credit risk. Once you’re done, you’ll evaluate the performance of these models and make a written recommendation on whether they should be used to predict credit risk.
 
-
-
 -----------------------------------
+
 ## Results
 
 Below are descriptions of the balanced accurary scores and the precision and recall scores of all six machine learning models. 
 
-
 *1. Random Over Sampler*
 
 #### Balanced Accuracy Score
+
+- Balanced Accuracy Score: 66.1%
+- Precision of High-Risk Classification was 0.01, while the precision of the Low-Risk Classification was 1.00. These values help to explain that the Low-Risk Classifications are very reliable, but the High-Risk classications are not reliable at all. 
+- Recall of High-Risk Classification was 0.72 and the recall of the low-risk classification was 0.60. These values demonstrate that High-Risk classification has a higher sensitivity than the Low-Risk Classication, which means that the model was able to correctly identify 72% of the High-Risk classified loans. 
 
 ![Balanced Accuracy Score](https://user-images.githubusercontent.com/102566199/183555422-e2b1fba6-0cd7-4e40-84ef-81a65b2dfb10.png)
 
@@ -57,6 +50,9 @@ Below are descriptions of the balanced accurary scores and the precision and rec
 
 *2. SMOTE*
 
+- Balanced Accuracy Score: 65.8%
+- Precision of High-Risk Classification was 0.01, while the precision of the Low-Risk Classification was 1.00. These values help to explain that the Low-Risk Classifications are very reliable, but the High-Risk classications are not reliable at all. 
+- Recall of High-Risk Classification was 0.63 and the recall of the low-risk classification was 0.68. These numbers are fairly similar and both sit lower than the previous model with only 63% of the High-Risk loans being identified. 
 
 #### Balanced Accuracy Score
 ![BAS_Smote](https://user-images.githubusercontent.com/102566199/183555794-97243d33-5a1d-47b7-b6af-9ba0c8975c2f.png)
@@ -71,6 +67,11 @@ Below are descriptions of the balanced accurary scores and the precision and rec
 
 
  *3. Cluster Centroids*
+
+- Balanced Accuracy Score: 54.4% (Lowest value of all models)
+- Precision of High-Risk Classification was 0.01, while the precision of the Low-Risk Classification was 1.00. These values help to explain that the Low-Risk Classifications are very reliable, but the High-Risk classications are not reliable at all. 
+- Recall of High-Risk Classification was 0.69 and the recall of the low-risk classification was 0.40. These values demonstrate that High-Risk classification has a higher sensitivity than the Low-Risk Classication, which means that the model was able to correctly identify 69% of the High-Risk classified loans. 
+
 
 #### Balanced Accuracy Score
 
@@ -89,6 +90,10 @@ Below are descriptions of the balanced accurary scores and the precision and rec
 
  *4. SMOTEENN*
  
+- Balanced Accuracy Score: 64.8%
+- Precision of High-Risk Classification was 0.01, while the precision of the Low-Risk Classification was 1.00. These values help to explain that the Low-Risk Classifications are very reliable, but the High-Risk classications are not reliable at all. 
+- Recall of High-Risk Classification was 0.72 and the recall of the low-risk classification was 0.57. These values demonstrate that High-Risk classification has a higher sensitivity than the Low-Risk Classication, which means that the model was able to correctly identify 72% of the High-Risk classified loans. 
+ 
 #### Balanced Accuracy Score
 
 ![BAS_S](https://user-images.githubusercontent.com/102566199/183556340-02ca32ff-8f72-4342-a5dd-e2ff30d48e94.png)
@@ -104,6 +109,10 @@ Below are descriptions of the balanced accurary scores and the precision and rec
 ![ICR_S](https://user-images.githubusercontent.com/102566199/183556392-612ed405-0431-4695-9d7e-fcd66d17da9e.png)
 
  *5. Balanced Random Forest Classifier*
+ 
+- Balanced Accuracy Score: 78.8%
+- Precision of High-Risk Classification was 0.03, while the precision of the Low-Risk Classification was 1.00. These values help to explain that the Low-Risk Classifications are very reliable, but the High-Risk classications are not reliable at all. 
+- Recall of High-Risk Classification was 0.70 and the recall of the low-risk classification was 0.87. These values demonstrate that High-Risk classification has a lower sensitivity than the Low-Risk Classication, which means that the model was able to correctly identify 70% of the High-Risk classified loans.  
  
 #### Balanced Accuracy Score
 
@@ -121,6 +130,10 @@ Below are descriptions of the balanced accurary scores and the precision and rec
 
 
  *6. Easy Ensemble Classifier*
+ 
+- Balanced Accuracy Score: 93.2% (Highest value of all models)
+- Precision of High-Risk Classification was 0.09, while the precision of the Low-Risk Classification was 1.00. These values help to explain that the Low-Risk Classifications are very reliable, but the High-Risk classications are not reliable at all. 
+- Recall of High-Risk Classification was 0.92 and the recall of the low-risk classification was 0.94. Both have extremely values, which is impressive because the model was able to correctly identify 92% of the High-Risk classified loans. 
  
  #### Balanced Accuracy Score
 
