@@ -40,6 +40,17 @@ Below are descriptions of the balanced accurary scores and the precision and rec
 
 *1. Random Over Sampler*
 
+####Balanced Accuracy Score
+
+![Balanced Accuracy Score](https://user-images.githubusercontent.com/102566199/183555422-e2b1fba6-0cd7-4e40-84ef-81a65b2dfb10.png)
+
+
+####Confusion Matrix
+![Confusion Matrix](https://user-images.githubusercontent.com/102566199/183555548-992c7ef8-d2ca-417b-8041-4c8de2b4ea88.png)
+
+####Imbalanced Classification Report
+![Imbalanced Classification Report](https://user-images.githubusercontent.com/102566199/183555649-3dd658b5-c485-4939-9c06-8a6366367c76.png)
+
 
 
 *2. SMOTE*
