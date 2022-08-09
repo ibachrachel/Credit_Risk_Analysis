@@ -40,20 +40,34 @@ Below are descriptions of the balanced accurary scores and the precision and rec
 
 *1. Random Over Sampler*
 
-####Balanced Accuracy Score
+#### Balanced Accuracy Score
 
 ![Balanced Accuracy Score](https://user-images.githubusercontent.com/102566199/183555422-e2b1fba6-0cd7-4e40-84ef-81a65b2dfb10.png)
 
 
-####Confusion Matrix
+#### Confusion Matrix
+
 ![Confusion Matrix](https://user-images.githubusercontent.com/102566199/183555548-992c7ef8-d2ca-417b-8041-4c8de2b4ea88.png)
 
-####Imbalanced Classification Report
+#### Imbalanced Classification Report
+
 ![Imbalanced Classification Report](https://user-images.githubusercontent.com/102566199/183555649-3dd658b5-c485-4939-9c06-8a6366367c76.png)
 
 
 
 *2. SMOTE*
+
+
+#### Balanced Accuracy Score
+![BAS_Smote](https://user-images.githubusercontent.com/102566199/183555794-97243d33-5a1d-47b7-b6af-9ba0c8975c2f.png)
+
+#### Confusion Matrix
+
+![CM_Smote](https://user-images.githubusercontent.com/102566199/183555901-606e7961-bd1a-4e50-ae71-d40edb8e8012.png)
+
+#### Imbalanced Classification Report
+
+![ICR_smote](https://user-images.githubusercontent.com/102566199/183555978-997e921d-374f-4700-9ed9-8d36e603336b.png)
 
 
  *3. Cluster Centroids*
