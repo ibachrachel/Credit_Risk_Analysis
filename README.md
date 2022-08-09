@@ -107,23 +107,35 @@ Below are descriptions of the balanced accurary scores and the precision and rec
  
 #### Balanced Accuracy Score
 
+![BAS_RF](https://user-images.githubusercontent.com/102566199/183558179-a3d4a6e6-ca89-48bc-817b-1c12bbe87eab.png)
+
 
 #### Confusion Matrix
 
+![CM_RF](https://user-images.githubusercontent.com/102566199/183558224-9eb79a9a-365f-4146-af94-23cc9326ed5d.png)
 
 
 #### Imbalanced Classification Report
+
+![ICR_RF](https://user-images.githubusercontent.com/102566199/183558251-b85bb131-8b44-4c1f-9fa3-2ed1ae37d264.png)
+
 
  *6. Easy Ensemble Classifier*
  
  #### Balanced Accuracy Score
 
+![BAS_EE](https://user-images.githubusercontent.com/102566199/183558313-712c7f7e-04c1-47f2-976d-5aa138d23320.png)
+
 
 #### Confusion Matrix
 
+![CM_EE](https://user-images.githubusercontent.com/102566199/183558337-7738f09b-f9a2-4bdc-b19c-5fdfc605d930.png)
 
 
 #### Imbalanced Classification Report
+
+![ICR_EE](https://user-images.githubusercontent.com/102566199/183558377-919f4174-e467-4d6c-94c0-cf0d16b467cf.png)
+
 
 -------------------
 
