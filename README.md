@@ -1,9 +1,4 @@
-# Credit_Risk_Analysis
-
-Module 17: Credit Risk Analysis
-
-
-# Credit Risk Analysis
+# Module 17: Credit Risk Analysis
 
 ## Overview
 
