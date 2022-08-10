@@ -151,7 +151,9 @@ Below are descriptions of the balanced accurary scores and the precision and rec
 
 *Summary of results*
 
-Many models performed in a similar manner, with accuracy scores, recall scores, etc. 
+Many models performed in a similar manner, but understanding these results is vital to drawing a conclusion on how the model is performing.
+All the models had very poor precision scores for High-Risk predictions, while all of the models also scored extremely high (100%) precision on predicting Low-Risk loans. This is not extremely helpful because a model that is effective should be able to warn against bad decisions. Although, since the High-Risk data is less frequent than the Low-Risk data, it might be of note to collect more data on High-Risk and determine if this will help precision improve. 
+To determine how effective a model is, the recall scores are what will help to make this decision. There was a wide range of recall scores, but the Easy Ensemble Classifier has the best recall scores of 92% and 94% for High-Risk and Low-Risk, respectively. 
 
 *Recommendations*
 
